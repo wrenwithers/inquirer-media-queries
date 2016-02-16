@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #E7E7E7;
+  font-size: 14px; font-size: 1.4rem;
+}
+
+h1   {
+  font-size: 24px; font-size: 2.4rem;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.nav {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  border-style: dashed;
+  border-width: thin;
+  border-color: #000;
+}
+
+.nav ul {
+  list-style-type: none;
+  text-align: center;
+  border-style: dashed;
+  border-width: thin;
+  border-color: #000;
+}
+
+li {
+ display: inline;
+ padding: 0rem 2rem 0rem 2rem;
+}
+
+.column1 {
+  width: 100%;
+  border-style: dashed;
+  border-width: thin;
+  border-color: #000;
+}
+
+.column1 img {
+  float:none;
+  display: block;
+  max-width: 100%
+  margin: 0 auto 2em;
+  width: 90%
+  min-width: 200px;
+  border-style: dashed;
+  border-width: thin;
+  border-color: #000;
+}
+
+.column2 {
+  position: relative;
+  width: 100%;
+  padding: 2.5rem;
+  margin: 10rem 0rem 0rem 0rem;
+  border-style: dashed;
+  border-width: thin;
+  border-color: #000;
+}
+
+#header {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.ital {
+  font-style: italic;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+#gallery img {
+  height: auto;
+  float: right;
+  width: 26%;
+  margin: 2rem 1.4rem 1.4rem 1.4rem;
+}
+
+.clearboth {
+  clear: both;
+}
+
+#footer p {
+  text-align: center;
+  font-size: 1.4rem;
+}
